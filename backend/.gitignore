@@ -1,31 +1,23 @@
+# macOS
+.DS_Store
+
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.eggs/
-build/
-dist/
 
 # Virtual environments
 .venv/
 venv/
-env/
 
-# Environment / secrets
+# Environment variables
 .env
-.env.*
-!.env.example
 
-# IDE / OS
-.idea/
+# Node
+node_modules/
+
+# IDE
 .vscode/
-.DS_Store
+.idea/
 
-# Test / coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Locally-stored uploads + sqlite db
-media/
-*.db
+# Logs
+*.log
